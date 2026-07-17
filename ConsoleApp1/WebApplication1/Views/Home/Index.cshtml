@@ -1,8 +1,307 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section id="home" class="container py-5">
+    <div class="row align-items-center">
+
+        <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-4 fw-bold">Bryll Honor</h1>
+
+            <h3 class="text-primary mb-3">
+                IT Student | Hardware & Cybersecurity Enthusiast
+            </h3>
+
+            <p class="lead">
+                I am an Information Technology student who is passionate about
+                computer hardware, networking, and cybersecurity. I enjoy
+                troubleshooting computer systems, learning new technologies,
+                and improving my technical skills.
+            </p>
+
+            <a href="#projects" class="btn btn-primary me-2">
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn btn-outline-dark">
+                Contact Me
+            </a>
+        </div>
+
+        <div class="col-lg-6 text-center mt-4 mt-lg-0">
+            <img src="~/images/profile.jpg"
+                 alt="Profile"
+                 class="img-fluid rounded-circle shadow"
+                 style="width:250px;height:250px;object-fit:cover;">
+        </div>
+
+    </div>
+</section>
+
+<hr />
+
+<section id="about" class="container py-5">
+
+    <h2 class="text-center mb-4">About Me</h2>
+
+    <p>
+        I am currently an Information Technology student with a strong interest
+        in computer hardware, networking, and cybersecurity. I enjoy learning
+        about computer assembly, hardware troubleshooting, system maintenance,
+        and network configuration. Throughout my studies, I have also gained
+        experience in programming and database development using C#, Python,
+        Java, SQL, HTML, and CSS, allowing me to understand both the hardware
+        and software aspects of information technology.
+    </p>
+
+    <p>
+        My career goal is to build a successful career in cybersecurity,
+        specializing in protecting computer systems, networks, and sensitive
+        information from cyber threats. I am committed to continuously improving
+        my knowledge of cybersecurity principles, ethical hacking, network
+        security, and digital forensics while strengthening my analytical and
+        problem-solving skills. Outside academics, I enjoy exploring new
+        technologies, learning about the latest cybersecurity trends, gaming,
+        and working on personal projects that enhance my technical and security
+        expertise.
+    </p>
+
+</section>
+
+<hr />
+
+<section id="skills" class="container py-5">
+
+    <h2 class="text-center mb-5">Technical Skills</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Programming Languages</h5>
+                    <ul>
+                        <li>C#</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Web Technologies</h5>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Bootstrap 5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Databases</h5>
+                    <ul>
+                        <li>SQL Server</li>
+                        <li>MySQL</li>
+                        <li>Microsoft Access</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Development Tools</h5>
+                    <ul>
+                        <li>Visual Studio</li>
+                        <li>Visual Studio Code</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<hr />
+
+<section id="projects" class="container py-5">
+
+    <h2 class="text-center mb-5">My Projects</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <img src="~/images/project1.jpg"
+                     class="card-img-top"
+                     alt="Project 1">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        Grocery Billing System
+                    </h5>
+
+                    <p class="card-text">
+                        A Python-based billing and inventory management system
+                        with receipt generation and product tracking.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        Python
+                    </p>
+
+                    <a href="#" class="btn btn-primary">
+                        View Details
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <img src="~/images/project2.jpg"
+                     class="card-img-top"
+                     alt="Project 2">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        Hotel Reservation Database
+                    </h5>
+
+                    <p class="card-text">
+                        Database application developed using Microsoft Access
+                        for managing hotel reservations.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        MS Access, SQL
+                    </p>
+
+                    <a href="#" class="btn btn-primary">
+                        View Details
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <img src="~/images/project3.jpg"
+                     class="card-img-top"
+                     alt="Project 3">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        ASP.NET Core Portfolio
+                    </h5>
+
+                    <p class="card-text">
+                        Responsive portfolio website developed using
+                        ASP.NET Core MVC and Bootstrap 5.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        ASP.NET Core MVC, Bootstrap
+                    </p>
+
+                    <a href="#" class="btn btn-primary">
+                        View Details
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<hr />
+
+<section id="contact" class="container py-5">
+
+    <h2 class="text-center mb-4">Contact Me</h2>
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-8">
+
+            <div class="card shadow">
+
+                <div class="card-body">
+
+                    <div class="mb-3">
+                        <h5>Email</h5>
+                        <p>
+                            <a href="mailto:honorbryll7@gmail.com">
+                                honorbryll7@gmail.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <h5>Mobile Number</h5>
+                        <p>
+                            <a href="tel:+639944483213">
+                                +63 994 448 3213
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <h5>GitHub</h5>
+                        <p>
+                            <a href="https://github.com/BryllHonor" target="_blank">
+                                https://github.com/BryllHonor
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>Facebook</h5>
+                        <p>
+                            <a href="https://facebook.com/rylee.honor" target="_blank">
+                                https://facebook.com/rylee.honor
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="text-center">
+
+                        <a href="~/resume/Bryll_Honor_Resume.pdf"
+                           class="btn btn-success btn-lg"
+                           download="Bryll_Honor_Resume.pdf">
+
+                            📄 Download Resume
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
