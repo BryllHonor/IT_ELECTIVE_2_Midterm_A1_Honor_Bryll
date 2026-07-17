@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bryll\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Honor_Bryll\\IT_ELECTIVE_2_Midterm_A1_Honor_Bryll\\ConsoleApp1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\bryll\\downloads\\it_elective_2_midterm_a1_honor_bryll\\it_elective_2_midterm_a1_honor_bryll\\consoleapp1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bryll\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Honor_Bryll\\IT_ELECTIVE_2_Midterm_A1_Honor_Bryll\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bryll\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Honor_Bryll\\IT_ELECTIVE_2_Midterm_A1_Honor_Bryll\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAgwBkBAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-17T17:52:57.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
